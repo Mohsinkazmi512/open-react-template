@@ -6,8 +6,9 @@ export default function Features() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">The majority our customers do not understand their workflows.</h2>
-            <p className="text-xl text-gray-400">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h2 className="h2 mb-4">Introduction To Spark-AI</h2>
+            <p className="text-xl text-gray-400">Changing the way students engage and learn in modern era through EduTech tools the Spark-AI tool is designed to address the needs of modern education by providing a platform for personalized feedback, resource sharing, and interactive communication between professors and students.
+            It helps create a more engaging and effective learning environment. Spark AI is also available on IOS.</p>
           </div>
 
           {/* Items */}
