@@ -12,9 +12,9 @@ export default function Zigzag() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">Reach goals that matter</div>
-            <h1 className="h2 mb-4">One product, unlimited solutions</h1>
-            <p className="text-xl text-gray-400">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla.</p>
+            <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">MODERN ACADEMIA</div>
+            <h1 className="h2 mb-4">Performance Management System</h1>
+            <p className="text-xl text-gray-400">SparkAI is a Performance Improvement Tool. Its not a LMS or eLearning platform. It is easy to use and requires no technical skills.</p>
           </div>
 
           {/* Items */}
@@ -30,26 +30,28 @@ export default function Zigzag() {
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   <div className="font-architects-daughter text-xl text-purple-600 mb-2">More speed. Less spend</div>
-                  <h3 className="h3 mb-3">Keep projects on schedule</h3>
-                  <p className="text-xl text-gray-400 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <h3 className="h3 mb-3">Significance</h3>
+                  <p className="text-xl text-gray-400 mb-4">SparkAI takes a significant stride towards eco-friendliness by eliminating the need for printing papers in the assessment process. It digitizes every step, from students working on assignments to teachers grading them.
+Students can conveniently complete their assignments and submit them through SparkAI’s digital platform. Teachers, in turn, can assess and grade these assignments directly within the system, using tools like a digipen for precision and efficiency.
+Once the assessment is complete, the marked assignments are swiftly returned to the students through SparkAI. This seamless digital workflow not only conserves valuable resources but also streamlines the assessment process, making it more convenient and eco-conscious.</p>
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Duis aute irure dolor in reprehenderit</span>
+                      <span>Quiz Submission</span>
                     </li>
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Excepteur sint occaecat</span>
+                      <span>Lab Submission</span>
                     </li>
                     <li className="flex items-center">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Amet consectetur adipiscing elit</span>
+                      <span>Online Marking</span>
                     </li>
                   </ul>
                 </div>
@@ -66,26 +68,29 @@ export default function Zigzag() {
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-left">
                 <div className="md:pl-4 lg:pl-12 xl:pl-16">
                   <div className="font-architects-daughter text-xl text-purple-600 mb-2">More speed. Less spend</div>
-                  <h3 className="h3 mb-3">Keep projects on schedule</h3>
-                  <p className="text-xl text-gray-400 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <h3 className="h3 mb-3">Attendance</h3>
+                  <p className="text-xl text-gray-400 mb-4">Attendance module is available for teachers to mark the attendance of students and they can also download the list of attendees.
+              GeoAttendance is also available.
+                    The Spark AI tool is amazing because it helps professors connect with students, provide personalized support, and enhance the learning experience.
+                  It’s a great tool for collaboration and engagement! It has various features like personalized feedback, resource sharing, and interactive communication between professors and students. It helps enhance the learning experience and foster collaboration.</p>
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Duis aute irure dolor in reprehenderit</span>
+                      <span>Auto Attendance</span>
                     </li>
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Excepteur sint occaecat</span>
+                      <span>Geo Attendance</span>
                     </li>
                     <li className="flex items-center">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Amet consectetur adipiscing elit</span>
+                      <span>Online Approval & Download Attendance Record</span>
                     </li>
                   </ul>
                 </div>
@@ -102,27 +107,84 @@ export default function Zigzag() {
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   <div className="font-architects-daughter text-xl text-purple-600 mb-2">More speed. Less spend</div>
-                  <h3 className="h3 mb-3">Keep projects on schedule</h3>
-                  <p className="text-xl text-gray-400 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                  <ul className="text-lg text-gray-400 -mb-2">
+                  <h3 className="h3 mb-3">App Features</h3>
+                  <p className="text-xl text-gray-400 mb-4">SparkAI is a Performance Management System for students. It provides real-time feedback to students on their academic performance.
+
+AutoAttendance
+Class participation
+Group Based Learning
+Social skills
+Communication skills
+Analytical skills
+Leadership skills
+Using all the above matric the student are provided with their
+
+Current Grade
+Predicted Grade
+SparkAI is a Performance Improvement Tool. Its not a LMS or eLearning platform. It is easy to use and requires no technical skills.
+
+Teachers benefit by
+</p>
+                  <ul 
+                  className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Duis aute irure dolor in reprehenderit</span>
+                      <span>Reduced work load in grading</span>
+
                     </li>
-                    <li className="flex items-center mb-2">
+                    <li 
+                    className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Excepteur sint occaecat</span>
+                      <span>Get to know students academic abilities</span>
+
                     </li>
-                    <li className="flex items-center">
+                    <li 
+                    className="flex items-center">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Amet consectetur adipiscing elit</span>
+                      <span>Incentivise learning</span>
                     </li>
+                    <li 
+                    className="flex items-center">
+                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg>
+                      <span>Improve student class participation</span>
+                    </li>
+                    <li 
+                    className="flex items-center">
+                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg>
+                      <span>Alerts about weak students</span>
+                    </li>
+                    <li 
+                    className="flex items-center">
+                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg>
+                      <span>Good reporting tools</span>
+                    </li>
+                    <li 
+                    className="flex items-center">
+                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg>
+                      <span>Automatic portfolio preparation</span>
+                    </li>
+                    <li 
+                    className="flex items-center">
+                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg>
+                      <span>CLO coverage tracking</span>
+                    </li>
+                    
                   </ul>
                 </div>
               </div>
