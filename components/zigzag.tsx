@@ -13,7 +13,7 @@ export default function Zigzag() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">MODERN ACADEMIA</div>
-            <h1 className="h2 mb-4">Performance Management System</h1>
+            <h1 className="h2 mb-4">Performance Enhancement System</h1>
             <p className="text-xl text-gray-400">SparkAI is a Performance Improvement Tool. Its not a LMS or eLearning platform. It is easy to use and requires no technical skills.</p>
           </div>
 
@@ -29,7 +29,7 @@ export default function Zigzag() {
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
-                  <div className="font-architects-daughter text-xl text-purple-600 mb-2">More speed. Less spend</div>
+                  <div className="font-architects-daughter text-xl text-purple-600 mb-2">More speed. Less effort</div>
                   <h3 className="h3 mb-3">Significance</h3>
                   <p className="text-xl text-gray-400 mb-4">SparkAI takes a significant stride towards eco-friendliness by eliminating the need for printing papers in the assessment process. It digitizes every step, from students working on assignments to teachers grading them.
 Students can conveniently complete their assignments and submit them through SparkAI’s digital platform. Teachers, in turn, can assess and grade these assignments directly within the system, using tools like a digipen for precision and efficiency.
@@ -67,7 +67,7 @@ Once the assessment is complete, the marked assignments are swiftly returned to 
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-left">
                 <div className="md:pl-4 lg:pl-12 xl:pl-16">
-                  <div className="font-architects-daughter text-xl text-purple-600 mb-2">More speed. Less spend</div>
+                  <div className="font-architects-daughter text-xl text-purple-600 mb-2">More speed. Less effort</div>
                   <h3 className="h3 mb-3">Attendance</h3>
                   <p className="text-xl text-gray-400 mb-4">Attendance module is available for teachers to mark the attendance of students and they can also download the list of attendees.
               GeoAttendance is also available.
@@ -106,7 +106,7 @@ Once the assessment is complete, the marked assignments are swiftly returned to 
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
-                  <div className="font-architects-daughter text-xl text-purple-600 mb-2">More speed. Less spend</div>
+                  <div className="font-architects-daughter text-xl text-purple-600 mb-2">More speed. Less effort</div>
                   <h3 className="h3 mb-3">App Features</h3>
                   <p className="text-xl text-gray-400 mb-4">SparkAI is a Performance Management System for students. It provides real-time feedback to students on their academic performance.
 
