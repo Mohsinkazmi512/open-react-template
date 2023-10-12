@@ -35,6 +35,7 @@
     @apply px-8 py-3;
 }
 
+
 .btn-sm {
     @apply px-4 py-2;
 }
