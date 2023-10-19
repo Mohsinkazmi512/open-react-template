@@ -31,7 +31,8 @@ export default function Zigzag() {
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   <div className="font-architects-daughter text-xl text-purple-600 mb-2">More speed. Less effort</div>
                   <h3 className="h3 mb-3">Significance</h3>
-                  <p className="text-xl text-gray-400 mb-4">SparkAI takes a significant stride towards eco-friendliness by eliminating the need for printing papers in the assessment process. It digitizes every step, from students working on assignments to teachers grading them.
+                  <p className="text-xl text-gray-400 mb-4" style={{textAlign:'justify'}}>
+                    SparkAI takes a significant stride towards eco-friendliness by eliminating the need for printing papers in the assessment process. It digitizes every step, from students working on assignments to teachers grading them.
 Students can conveniently complete their assignments and submit them through SparkAI’s digital platform. Teachers, in turn, can assess and grade these assignments directly within the system, using tools like a digipen for precision and efficiency.
 Once the assessment is complete, the marked assignments are swiftly returned to the students through SparkAI. This seamless digital workflow not only conserves valuable resources but also streamlines the assessment process, making it more convenient and eco-conscious.</p>
                   <ul className="text-lg text-gray-400 -mb-2">
@@ -69,7 +70,8 @@ Once the assessment is complete, the marked assignments are swiftly returned to 
                 <div className="md:pl-4 lg:pl-12 xl:pl-16">
                   <div className="font-architects-daughter text-xl text-purple-600 mb-2">More speed. Less effort</div>
                   <h3 className="h3 mb-3">Attendance</h3>
-                  <p className="text-xl text-gray-400 mb-4">Attendance module is available for teachers to mark the attendance of students and they can also download the list of attendees.
+                  <p className="text-xl text-gray-400 mb-4" style={{textAlign:'justify'}}>
+                    Attendance module is available for teachers to mark the attendance of students and they can also download the list of attendees.
               GeoAttendance is also available.
                     The Spark AI tool is amazing because it helps professors connect with students, provide personalized support, and enhance the learning experience.
                   It’s a great tool for collaboration and engagement! It has various features like personalized feedback, resource sharing, and interactive communication between professors and students. It helps enhance the learning experience and foster collaboration.</p>
@@ -108,7 +110,9 @@ Once the assessment is complete, the marked assignments are swiftly returned to 
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   <div className="font-architects-daughter text-xl text-purple-600 mb-2">More speed. Less effort</div>
                   <h3 className="h3 mb-3">App Features</h3>
-                  <p className="text-xl text-gray-400 mb-4">SparkAI is a Performance Management System for students. It provides real-time feedback to students on their academic performance.
+                  <p className="text-xl text-gray-400 mb-4" style={{textAlign:'justify'}}>
+                    SparkAI is a Performance Management System for students.
+                    It provides real-time feedback to students on their academic performance.
 
 AutoAttendance
 Class participation

@@ -29,7 +29,9 @@ export default function Testimonials() {
                   </svg>
                 </div>
               </div>
-              <blockquote className="text-lg text-gray-400 grow">— Amazing Interface. Spark-AI interface is user friendly and doesn't take time. It is good and simple.</blockquote>
+              <blockquote className="text-lg text-gray-400 grow" style={{textAlign:'justify'}}>
+                — Amazing Interface. Spark-AI interface is user friendly and doesn't take time.
+                It is good and simple.</blockquote>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
                 <cite className="text-gray-200 not-italic">Dr. Ejaz Tayab</cite> - <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">Karachi Institute of Technology and Economics(KIET).</a>
               </div>
@@ -45,7 +47,8 @@ export default function Testimonials() {
                   </svg>
                 </div>
               </div>
-              <blockquote className="text-lg text-gray-400 grow">— Excellent Future. I think this platform han an excellent future. </blockquote>
+              <blockquote className="text-lg text-gray-400 grow" style={{textAlign:'justify'}}>
+                — Excellent Future. I think this platform han an excellent future. </blockquote>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
                 <cite className="text-gray-200 not-italic">Dr. Hisham ul Haq</cite> - <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">Dept</a>
               </div>
@@ -61,7 +64,8 @@ export default function Testimonials() {
                   </svg>
                 </div>
               </div>
-              <blockquote className="text-lg text-gray-400 grow">— Homework Enthusiasm. The students are really excited to use the Spark-AI for their homework. </blockquote>
+              <blockquote className="text-lg text-gray-400 grow" style={{textAlign:'justify'}}>
+                — Homework Enthusiasm. The students are really excited to use the Spark-AI for their homework. </blockquote>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
                 <cite className="text-gray-200 not-italic">Hassan Ahmed Qureshi</cite> - <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">Dept</a>
               </div>

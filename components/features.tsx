@@ -5,9 +5,9 @@ export default function Features() {
         <div className="py-12 md:py-20">
 
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
+          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20" style={{justifyContent:'right', }}>
             <h2 className="h2 mb-4">Introduction To Spark-AI</h2>
-            <p className="text-xl text-gray-400">Changing the way students engage and learn in modern era through EduTech tools the Spark-AI tool is designed to address the needs of modern education by providing a platform for personalized feedback, resource sharing, and interactive communication between professors and students.
+            <p className="text-xl text-gray-400" style={{textAlign:'justify'}}>Changing the way students engage and learn in modern era through EduTech tools the Spark-AI tool is designed to address the needs of modern education by providing a platform for personalized feedback, resource sharing, and interactive communication between professors and students.
             It helps create a more engaging and effective learning environment. Spark AI is also available on IOS.</p>
           </div>
 
@@ -22,8 +22,10 @@ export default function Features() {
                 <path className="stroke-current text-purple-300" d="M43 42h-9M43 37h-9" strokeLinecap="square" strokeWidth="2" />
               </svg>
               <h4 className="h4 mb-2">AutoAttendance</h4>
-              <p className="text-lg text-gray-400 text-center">Attendance module is available for teachers to mark the attendance of students and they can also download the list of attendees.
-              GeoAttendance is also available.</p>
+              <p className="text-lg text-gray-400 text-center" style={{textAlign:'justify'}}>
+              SparkAI allows the teacher to take student attendance automatically.
+              No need to call out names, or pass a paper around or do a head count.
+              SparkAI AutoAttendance is an ideal solution for all class size from 10 to 150+ students.</p>
             </div>
 
             {/* 2nd item */}
@@ -34,7 +36,10 @@ export default function Features() {
                 <path className="stroke-current text-purple-300" d="M26 28h12M26 32h12M26 36h5" strokeWidth="2" strokeLinecap="square" />
               </svg>
               <h4 className="h4 mb-2">Class Participation</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <p className="text-lg text-gray-400 text-center" style={{textAlign:'justify'}}>
+                SparkAI provides Point-Based-System (PBS) to incentivise students to be alert and actively participate in class.
+              SparkAI automatically convert Points gained in each class into real grade with great benefits to students.
+              PBS also allows the teacher to better cater for weaker students.</p>
             </div>
 
             {/* 3rd item */}
@@ -48,7 +53,10 @@ export default function Features() {
                 </g>
               </svg>
               <h4 className="h4 mb-2">Group Based Learning</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <p className="text-lg text-gray-400 text-center" style={{textAlign:'justify'}}>
+                SparkAI is very effective in Group-Base-Learning (GBL) for all type of courses.
+              The efforts made by each student can be automatically captured in SparkAI and create individual student profile based on teacher defined matric.
+              Or use built-in matrics such as SCALE (Social, Communication, Analytical, Leadership, Enthusiasm).</p>
             </div>
 
             {/* 4th item */}
@@ -61,7 +69,10 @@ export default function Features() {
                 </g>
               </svg>
               <h4 className="h4 mb-2">Social skills</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <p className="text-lg text-gray-400 text-center" style={{textAlign:'justify'}}>
+                SparkAI has builtin On-the-fly Class-Assignments (OCA) module. This unique OCA allows teachers to creat small mini test during the class.
+              The students attempts are recorded automatically. This help students to be actively involved in the class and gain marks. It also help teachers to have a better engaging class for better student learning.
+              OCA removes paperwork and hence is eco-friendly.</p>
             </div>
 
             {/* 5th item */}
@@ -74,7 +85,10 @@ export default function Features() {
                 </g>
               </svg>
               <h4 className="h4 mb-2">Communication skills</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <p className="text-lg text-gray-400 text-center" style={{textAlign:'justify'}}>
+              SparkAI provide SGH (Submission-Grading-Handback) module for all type of assessments e.g., quizzes, homework, exams etc.
+              This SGH feature is convinient, effective, practical and very eco-friendly. It is one of the most popular feature loved by teachers and students alike.
+              Carrying a mobile is necessary but carrying a laptop all the time is both difficult and cumbersome. The SHG is entirely done on the mobile.</p>
             </div>
 
             {/* 6th item */}
@@ -88,7 +102,10 @@ export default function Features() {
                 </g>
               </svg>
               <h4 className="h4 mb-2">Analytical skills</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <p className="text-lg text-gray-400 text-center" style={{textAlign:'justify'}}>
+                SparkAI automatically provides each student with a customized real-time feedback/report on their Academic KPI (Key Performance Indicators).
+              Using AI, SparkAI generates students (1)Current Grade, (2)Maximum-possible Grade and (3)Predicted Grade. Using such inferences students and teachers are fully aware of students performance at all times.
+              This way students can improve their performance very easily. This feature is favourite for all students and teachers.</p>
             </div>
 
           </div>
