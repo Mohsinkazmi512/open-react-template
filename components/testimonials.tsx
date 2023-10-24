@@ -221,11 +221,11 @@ export default function Testimonials() {
                   className="text-lg text-gray-400 grow"
                   style={{ textAlign: "justify" }}
                 >
-                  — Wah. Kia baat hai.{" "}
+                  — Spark-AI is going to rule the education world.{" "}
                 </blockquote>
                 <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
                   <cite className="text-gray-200 not-italic">
-                    Dr. Mumli
+                    Muhammad Ali
                   </cite>{" "}
                   -{" "}
                   <a
