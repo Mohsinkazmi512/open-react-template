@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import {db} from './firebase-config.js'; // Import your Firebase config
 
 
 export default function Newsletter() {
   const [totalUsers, setTotalUsers] = useState(0);
 
   useEffect(() => {
+    var db = require('../firebase-config.js')
     // Fetch data from the "users" collection (no specific document ID)
     const fetchData = async () => {
       try {
