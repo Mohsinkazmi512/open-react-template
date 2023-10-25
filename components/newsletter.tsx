@@ -1,14 +1,23 @@
+"use client";
 import React, { useState, useEffect } from 'react';
+
 
 
 export default function Newsletter() {
   const [totalUsers, setTotalUsers] = useState(0);
 
+
+
+
   useEffect(() => {
-    var db = require('../firebase-config.js')
+    
+    // Initialize Firebase
+
     // Fetch data from the "users" collection (no specific document ID)
-    const fetchData = async () => {
+    const fetchData = async () => {  
       try {
+        var admin = require('../firebase-config.js')
+        const db = admin.firestore();
         const querySnapshot = await db.collection('users').get();
         // Get the number of documents in the "users" collection
         const count = querySnapshot.size;
