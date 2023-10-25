@@ -1,27 +1,17 @@
 "use client";
 import React, { useState, useEffect } from 'react';
-
-
+import * as api from '../app/api/hello/route'
 
 export default function Newsletter() {
   const [totalUsers, setTotalUsers] = useState(0);
 
-
-
-
   useEffect(() => {
-    
-    // Initialize Firebase
-
-    // Fetch data from the "users" collection (no specific document ID)
-    const fetchData = async () => {  
+    const fetchData = async () => {
       try {
-        var admin = require('../firebase-config.js')
-        const db = admin.firestore();
-        const querySnapshot = await db.collection('users').get();
-        // Get the number of documents in the "users" collection
-        const count = querySnapshot.size;
-        setTotalUsers(count);
+        // Initialize Firebase Admin SDK by importing the Firebase configuration file
+       const userCount = await api.getUserCount();
+       console.log(userCount);
+        setTotalUsers(1);
       } catch (error) {
         console.error('Error fetching data from Firestore:', error);
       }
@@ -29,6 +19,7 @@ export default function Newsletter() {
 
     fetchData();
   }, []);
+
 
   return (
     <section>
