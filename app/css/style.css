@@ -20,3 +20,8 @@
 [x-cloak=""] {
     display: none;
 }
+
+.gap-class {
+    margin-bottom: 20px; /* You can adjust the size (e.g., 20px) according to your preference */
+  }
+  

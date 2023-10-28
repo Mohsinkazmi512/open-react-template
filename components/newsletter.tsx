@@ -1,25 +1,62 @@
 "use client";
 import React, { useState, useEffect } from 'react';
-import * as api from '../app/api/hello/route'
+
+// Import the Firebase SDK and initialize it with your Firebase configuration
+import firebase from 'firebase/app';
+import 'firebase/auth';
+import 'firebase/firestore';
+
+const firebaseConfig = {
+  apiKey: 'YOUR_API_KEY',
+  authDomain: 'YOUR_AUTH_DOMAIN',
+  // Other config options...
+};
+
+// if (!firebase.apps.length) {
+//   firebase.initializeApp(firebaseConfig);
+// }
 
 export default function Newsletter() {
   const [totalUsers, setTotalUsers] = useState(0);
 
   useEffect(() => {
-    const fetchData = async () => {
+    // Function to fetch user count from Firestore
+    const fetchUserCountFromFirestore = async () => {
       try {
-        // Initialize Firebase Admin SDK by importing the Firebase configuration file
-       const userCount = await api.getUserCount();
-       console.log(userCount);
-        setTotalUsers(1);
+        // Reference your Firestore collection
+        const usersCollection = firebase.firestore().collection('users');
+
+        // Query the collection for documents
+        const querySnapshot = await usersCollection.get();
+
+        // Get the number of documents (users)
+        const userCount = querySnapshot.size;
+
+        setTotalUsers(userCount);
       } catch (error) {
         console.error('Error fetching data from Firestore:', error);
       }
     };
 
-    fetchData();
-  }, []);
+    // Function to fetch user count from the API route
+    const fetchUserCountFromAPI = async () => {
+      try {
+        const response = await fetch('/api/getUserCount');
+        if (response.ok) {
+          const data = await response.json();
+          const userCount = data.userCount;
+          console.log(userCount);
+          setTotalUsers(userCount);
+        }
+      } catch (error) {
+        console.error('Error fetching data from the API:', error);
+      }
+    };
 
+    // Call both functions when the component mounts
+    fetchUserCountFromFirestore();
+    fetchUserCountFromAPI();
+  }, []);
 
   return (
     <section>
@@ -40,7 +77,7 @@ export default function Newsletter() {
             </div>
             {/* CTA form displaying the total users */}
             <div className="w-full lg:w-1/2">
-              <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:max-w-none">
+              <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm.max-w-md lg.max-w-none">
                 <a className="btn text-black bg-purple-100 hover:bg-white shadow" href="#0">{totalUsers}</a>
               </div>
             </div>
@@ -50,6 +87,3 @@ export default function Newsletter() {
     </section>
   );
 }
-
-
-
