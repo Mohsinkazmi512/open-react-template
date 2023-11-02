@@ -19,44 +19,6 @@ const firebaseConfig = {
 export default function Newsletter() {
   const [totalUsers, setTotalUsers] = useState(0);
 
-  useEffect(() => {
-    // Function to fetch user count from Firestore
-    const fetchUserCountFromFirestore = async () => {
-      try {
-        // Reference your Firestore collection
-        const usersCollection = firebase.firestore().collection('users');
-
-        // Query the collection for documents
-        const querySnapshot = await usersCollection.get();
-
-        // Get the number of documents (users)
-        const userCount = querySnapshot.size;
-
-        setTotalUsers(userCount);
-      } catch (error) {
-        console.error('Error fetching data from Firestore:', error);
-      }
-    };
-
-    // Function to fetch user count from the API route
-    const fetchUserCountFromAPI = async () => {
-      try {
-        const response = await fetch('/api/getUserCount');
-        if (response.ok) {
-          const data = await response.json();
-          const userCount = data.userCount;
-          console.log(userCount);
-          setTotalUsers(userCount);
-        }
-      } catch (error) {
-        console.error('Error fetching data from the API:', error);
-      }
-    };
-
-    // Call both functions when the component mounts
-    fetchUserCountFromFirestore();
-    fetchUserCountFromAPI();
-  }, []);
 
   return (
     <section>
