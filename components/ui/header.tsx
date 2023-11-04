@@ -29,7 +29,7 @@ export default function Header() {
                 </Link>
               </li>
               <li>
-                <Link href="/aboutus" className="font-medium text-gold hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out">
+                <Link href="/aboutus" className="font-medium text-white hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out">
                   About
                   </Link>
               </li>
