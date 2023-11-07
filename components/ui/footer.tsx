@@ -25,33 +25,39 @@ export default function Footer() {
 <div className="md:col-span-8 lg:col-span-7 grid sm:grid-cols-3 gap-8">
 
 {/* 2nd block for Website */}
+{/* Updated "Services" block with new features */}
 <div className="text-sm">
   <h6 className="text-gray-200 font-medium mb-1">Services</h6>
   <ul>
-    <li className="mb-1">
-      <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Website Design</Link>
+  <li className="mb-1">
+      <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Free Training</Link>
     </li>
     <li className="mb-1">
-      <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Web Development</Link>
+      <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Focused Customization</Link>
     </li>
     <li className="mb-1">
-      <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">E-commerce Solutions</Link>
+      <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Institutional Accommodation</Link>
     </li>
+    <li className="mb-1">
+      <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Free App Upgradation</Link>
+    </li>
+    <li className="mb-1">
+      <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Free Regular Maintenance</Link>
+    </li>
+    
   </ul>
 </div>
+
 
 {/* 3rd block for Website */}
 <div className="text-sm">
   <h6 className="text-gray-200 font-medium mb-1">Resources</h6>
   <ul>
     <li className="mb-1">
-      <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Web Design Tips</Link>
+      <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Explore our Blog</Link>
     </li>
     <li className="mb-1">
-      <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Development Guides</Link>
-    </li>
-    <li className="mb-1">
-      <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">SEO Best Practices</Link>
+      <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Latest News</Link>
     </li>
   </ul>
 </div>
@@ -61,16 +67,17 @@ export default function Footer() {
   <h6 className="text-gray-200 font-medium mb-1">Company</h6>
   <ul>
     <li className="mb-1">
-      <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">About Us</Link>
-    </li>
-    <li className="mb-1">
       <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Contact</Link>
     </li>
     <li className="mb-1">
-      <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Client Testimonials</Link>
+      <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">FAQs</Link>
+    </li>
+    <li className="mb-1">
+      <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Customer Support</Link>
     </li>
   </ul>
 </div>
+
 
 </div>
 

@@ -1,25 +1,7 @@
 "use client";
-import React, { useState, useEffect } from 'react';
-
-// Import the Firebase SDK and initialize it with your Firebase configuration
-import firebase from 'firebase/app';
-import 'firebase/auth';
-import 'firebase/firestore';
-
-const firebaseConfig = {
-  apiKey: 'YOUR_API_KEY',
-  authDomain: 'YOUR_AUTH_DOMAIN',
-  // Other config options...
-};
-
-// if (!firebase.apps.length) {
-//   firebase.initializeApp(firebaseConfig);
-// }
+import React from 'react';
 
 export default function Newsletter() {
-  const [totalUsers, setTotalUsers] = useState(0);
-
-
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -34,13 +16,20 @@ export default function Newsletter() {
           <div className="relative flex flex-col lg:flex-row justify-between items-center">
             {/* CTA content */}
             <div className="mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left lg:w-1/2">
-              <h3 className="h3 text-black mb-2">Total Worldwide Users of Spark AI...!</h3>
-              <p className="text-black text-lg">Spark-AI app Users since September 1, 2023</p>
+              <h3 className="h3 text-black mb-2">Subscribe to Our Newsletter</h3>
+              <p className="text-black text-lg">Stay updated with the latest news and updates from Spark AI.</p>
             </div>
-            {/* CTA form displaying the total users */}
+            {/* Newsletter signup form */}
             <div className="w-full lg:w-1/2">
               <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm.max-w-md lg.max-w-none">
-                <a className="btn text-black bg-purple-100 hover:bg-white shadow" href="#0">{totalUsers}</a>
+                <input
+                  type="email"
+                  placeholder="Your Email Address"
+                  className="bg-white text-black rounded-l sm:rounded-l-none sm:rounded-r px-4 py-2 sm:py-4 w-full sm:w-auto focus:outline-none"
+                />
+                <button className="btn text-black bg-purple-100 hover:bg-white rounded-r sm:rounded-l-none sm:rounded-r shadow" type="submit">
+                  Subscribe
+                </button>
               </div>
             </div>
           </div>
