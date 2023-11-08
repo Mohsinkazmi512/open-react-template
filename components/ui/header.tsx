@@ -23,25 +23,25 @@ export default function Header() {
               <li>
                 <Link
                   href="/"
-                  className="font-medium text-white hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                  className="font-medium text-white hover:text-purple-600 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                 Home
                 </Link>
               </li>
               <li>
-                <Link href="/aboutus" className="font-medium text-white hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out">
+                <Link href="/aboutus" className="font-medium text-white hover:text-purple-600 px-4 py-3 flex items-center transition duration-150 ease-in-out">
                   About
                   </Link>
               </li>
               <li>
                 <Link 
-                href="/contactus" className="font-medium text-white hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out">
+                href="/contactus" className="font-medium text-white hover:text-purple-600 px-4 py-3 flex items-center transition duration-150 ease-in-out">
                   Contact
                   </Link>
               </li>
               <li>
                 <Link 
-                href="/privacypolicy" className="font-medium text-white hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out">
+                href="/privacypolicy" className="font-medium text-white hover:text-purple-600 px-4 py-3 flex items-center transition duration-150 ease-in-out">
                   Privacy Policy
                 </Link>
               </li>

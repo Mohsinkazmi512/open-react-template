@@ -10,14 +10,15 @@ export default function Zigzag() {
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="py-12 md:py-20 border-t border-gray-800">
+        <div className="py-12 md:py-20 border-t border-purple-600">
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">MODERN ACADEMIA</div>
-            <h1 className="h2 mb-4">Performance Enhancement System</h1>
-            <p className="text-xl text-gray-400">SparkAI is a Performance Improvement Tool. Its not a LMS or eLearning platform. It is easy to use and requires no technical skills.</p>
-          </div>
+  <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-black bg-yellow-500 rounded-full mb-4">MODERN ACADEMIA</div>
+  <h1 className="h2 mb-4">Performance Enhancement System</h1>
+  <p className="text-xl text-gray-400">SparkAI is a Performance Improvement Tool. It's not an LMS or eLearning platform. It is easy to use and requires no technical skills.</p>
+</div>
+
 
           {/* Items */}
           <div className="grid gap-20">
@@ -201,12 +202,15 @@ Teachers benefit by
         </div>
         
       </div>
-      
+      {/* <div className="bg-gray-900 text-white py-2 text-center">
+        <div className="border-t border-purple-600 my-4"></div>
+      </div> */}
       <div className="bg-gray-900 text-white py-10 text-center style={{textAlign:'justify'} ">
         <h2 className="text-4xl font-bold">Downloads</h2>
         <p className="text-xl mt-2">Total Worldwide users of Spark-AI since September 2023</p>
         <button className="btn bg-purple-600 hover:bg-purple-700 mt-4">3000</button>
       </div>
+      
     </section>
     
   )

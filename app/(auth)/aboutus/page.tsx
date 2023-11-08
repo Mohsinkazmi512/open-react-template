@@ -108,44 +108,44 @@ export default function AboutUs() {
     <li>
   For iPhone users, visit the Apple Store:{' '}
   <Link href="https://apps.apple.com/us/app/spark-ai-sle/id6450753287">
-    <strong>Download SparkAI</strong>
+    <strong className="hover:text-purple-600">Download SparkAI</strong>
   </Link>
 </li>
 <li>
   For Android users, head to the Google Play Store:{' '}
   <Link href="https://play.google.com/store/apps/details?id=com.handabots.sparkai&pcampaignid=web_share">
-    <strong>Download SparkAI</strong>
+    <strong className="hover:text-purple-600">Download SparkAI</strong>
   </Link>
 </li>
 
     </ul>
-    <li><strong>New Student Registration:</strong></li>
+    <li><strong className="text-purple-600">New Student Registration:</strong></li>
     <ul>
       <li>Sign up as a new student user.</li>
     </ul>
-    <li><strong>Sign In:</strong></li>
+    <li><strong className="text-purple-600">Sign In:</strong></li>
     <ul>
       <li>Log in to your SparkAI account.</li>
     </ul>
-    <li><strong>Join a Course:</strong></li>
+    <li><strong className="text-purple-600">Join a Course:</strong></li>
     <ul>
       <li>Navigate to the ‘Join Course’ section.</li>
     </ul>
-    <li><strong>Enter Teacher’s Email:</strong></li>
+    <li><strong className="text-purple-600">Enter Teacher’s Email:</strong></li>
     <ul>
       <li>Provide your teacher’s email address (e.g., youremail@here.com).</li>
       <li>Scan QR code to join course.</li>
 
     </ul>
-    <li><strong>Course Enrollment:</strong></li>
+    <li><strong className="text-purple-600">Course Enrollment:</strong></li>
     <ul>
       <li>Join the course.</li>
     </ul>
-    <li><strong>Approval Pending:</strong></li>
+    <li><strong className="text-purple-600">Approval Pending:</strong></li>
     <ul>
       <li>Wait for your teacher’s approval.</li>
     </ul>
-    <li><strong>Course Access:</strong></li>
+    <li><strong className="text-purple-600">Course Access:</strong></li>
     <ul>
       <li>Once approved, access your registered course and start your learning journey!</li>
     </ul>
