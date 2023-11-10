@@ -208,7 +208,7 @@ Teachers benefit by
       <div className="bg-gray-900 text-white py-10 text-center style={{textAlign:'justify'} ">
         <h2 className="text-4xl font-bold">Downloads</h2>
         <p className="text-xl mt-2">Total Worldwide users of Spark-AI since September 2023</p>
-        <button className="btn bg-purple-600 hover:bg-purple-700 mt-4">3000</button>
+        <button className="btn bg-purple-600 hover:bg-purple-700 mt-4">3156</button>
       </div>
       
     </section>
